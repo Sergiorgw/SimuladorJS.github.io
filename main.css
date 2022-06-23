@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(122, 56, 44);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+button {
+    border-radius: 20px;
+    padding: 15px 30px 15px 30px;
+}/*# sourceMappingURL=main.css.map */
+
+.boton:hover{
+    background: #03a1b6;
+    box-shadow: 0 0 10px #03a1b6, 0 0 40px #03a1b6, 0 0 30px #03a1b6;
+    transition-delay: 0,5s;
+}
